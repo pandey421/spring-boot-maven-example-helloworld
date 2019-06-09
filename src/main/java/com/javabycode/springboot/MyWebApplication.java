@@ -10,6 +10,7 @@ import org.springframework.boot.context.web.SpringBootServletInitializer;
 public class MyWebApplication extends SpringBootServletInitializer{
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
+        // Comment to trigger
         return application.sources(MyWebApplication.class);
     }
 
